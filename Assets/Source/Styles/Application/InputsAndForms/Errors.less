@@ -1,0 +1,12 @@
+.error-msg{
+	background:fade(@red, 20%);
+	color:@red;
+	display:inline-block;
+	padding:10px;
+	margin:10px 0;
+	.animation(fadeInUp 0.3s);
+	&.ng-hide-add{
+		.animation(fadeOutDown 0.3s);
+		display:block !important;
+	}
+}

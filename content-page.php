@@ -1,0 +1,1 @@
+<?php include(source() . '/Site/PostList/Post/Post.php'); ?>

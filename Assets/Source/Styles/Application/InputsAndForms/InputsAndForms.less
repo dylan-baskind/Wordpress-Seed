@@ -1,0 +1,43 @@
+	@import "Errors";
+	@import "SuccessMsg";
+	@import "Labels";
+	@import "Selects";
+	
+	input[type=text], input[type=email], input[type=number], input[type=password]{
+		@height:@base * 1.5;
+		background:#fff;
+		border-radius:2px;
+		border:1px solid fade(@dark, 10%);
+		height:@height;
+		line-height:@height;
+		padding-left:@base / 2;
+		font-size:@base / 2;
+		width:100%;
+		box-shadow: none;
+		.sans;
+		.light;
+		outline:none;
+		&:active{
+			outline:none;
+		}
+	}
+
+	input{
+
+		border-color:darken(#fff, 10%);
+		background:darken(#fff,2%);
+		&:focus{
+			background:#fff;
+		}
+		
+		.placeholder(16px; @dark; italic);
+		
+
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+		    -webkit-appearance: none;
+		    margin: 0;
+		}
+	}
+	
+	

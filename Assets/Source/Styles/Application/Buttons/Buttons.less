@@ -1,0 +1,44 @@
+button, .button-like{
+	background:@color;
+	color:#fff;
+	display:inline-block;
+	cursor:pointer;
+	outline:none;
+	border:none;
+	.light;
+	font-size:15px;
+	border-radius:2px;
+	&:active{ outline:none; }
+	&:hover{
+		
+	}
+
+	&.warning, &.delete, &.red{
+		background:@red;
+	}
+}
+
+.button-transition{
+	.transition(color 0.15s, background 0.275s);
+}
+
+// Alternative Style...
+.sleek-button(@theColor: @color){
+	.light;
+	.sans;
+	padding:9px 12px;
+	text-align:center;
+	background:transparent;
+	border-radius:@base / 2;
+	line-height:@base / 2;
+	border:1px solid @theColor;
+	color:@theColor;
+	.transition(background 0.25s);
+	&:hover{
+		background:fade(@theColor, 30%);
+	}
+}
+
+button.sleek{
+	.sleek-button;
+}

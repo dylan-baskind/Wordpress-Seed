@@ -1,0 +1,26 @@
+{
+  "name": "Qwilr-Theme",
+  "version": "1.0.0",
+  "devDependencies": {
+    "angular": "1.2.17",
+    "angular-resource": "1.2.17",
+    "angular-mocks": "1.2.17",
+    "angular-animate": "1.2.17",
+    "angular-sanitize": "1.2.17",
+    "angular-ui-router": "0.2.10",
+    "angular-ui-utils": "bower",
+    "colors": "~0.2.0",
+    "jquery": "2.1.0",
+    "lodash": "2.4.1",
+    "animate.css": "~3.1.1",
+    "mousetrap": "~1.4.6",
+    "momentjs": "~2.6.0",
+    "lesshat": "~3.0.1",
+    "less-mixins": "dylan-baskind/less-mixins",
+    "ng-persist": "https://github.com/dylan-baskind/ng-persist.git",
+    "ngLogger": "https://github.com/dylan-baskind/ngLogger.git",
+    "log": "~0.1.5"
+  },
+  "dependencies": {
+  }
+}

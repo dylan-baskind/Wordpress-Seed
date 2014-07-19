@@ -1,0 +1,13 @@
+# General file types to ignore
+.DS_Store
+Thumbs.db
+*.maps
+*.swp
+.sass-cache
+.idea
+
+# Folders
+node_modules
+Assets/Source/Vendor
+Assets/Built/**
+
